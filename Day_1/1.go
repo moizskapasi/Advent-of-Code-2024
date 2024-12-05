@@ -82,7 +82,7 @@ func abs(x int) int {
 }
 
 func main() {
-	inputFile := "input1.txt"
+	inputFile := ".\\input1.txt"
 
 	leftList, rightList, err := parseInput(inputFile)
 	if err != nil {

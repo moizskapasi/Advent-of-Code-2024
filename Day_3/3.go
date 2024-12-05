@@ -18,7 +18,7 @@ func parseInput(filePath string) string {
 }
 
 func main() {
-	filePath := "C:\\Users\\moizs\\Downloads\\AoC\\Day_3\\input3.txt"
+	filePath := ".\\input3.txt"
 	input := parseInput(filePath)
 
 	re := regexp.MustCompile(`mul\((\d+),(\d+)\)|do\(\)|don't\(\)`)

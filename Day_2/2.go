@@ -91,7 +91,7 @@ func countSafeReports(reports [][]int) int {
 }
 
 func main() {
-	inputFile := "C:\\Users\\moizs\\Downloads\\AoC\\Day 2\\input2.txt"
+	inputFile := ".\\input2.txt"
 
 	reports, err := parseInput(inputFile)
 	if err != nil {

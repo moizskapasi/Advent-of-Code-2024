@@ -98,7 +98,7 @@ func countPattern(grid [][]rune) int {
 }
 
 func main() {
-	filename := "C:\\Users\\moizs\\Downloads\\AoC\\Day_4\\input4.txt"
+	filename := ".\\input4.txt"
 	grid, err := parseInput(filename)
 	if err != nil {
 		fmt.Println("Error reading file:", err)

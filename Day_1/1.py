@@ -32,7 +32,7 @@ def calculate_similarity_score(left_list, right_list):
 # left_list = [3, 4, 2, 1, 3, 3]
 # right_list = [4, 3, 5, 3, 9, 3]
 
-left_list, right_list = parse_input("input1.txt")
+left_list, right_list = parse_input(".\input1.txt")
 total_distance = calculate_total_distance(left_list, right_list)
 similarity_score = calculate_similarity_score(left_list, right_list)
 
